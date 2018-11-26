@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>ThePipp</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Fontawesome icons for footer-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700" rel="stylesheet">
+    <!-- Featherlight - Lightbox -->
+    <link href="./Assets/CSS/featherlight.css" rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link href="./Assets/CSS/mainstyle.css" rel="stylesheet">
+
+</head>
+    
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="top">
+        <div class="container">
+            <a class="navbar-brand" href="#intro" id="logo">The<span>Pipp</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">What I do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //Navbar -->
+
+
+    <!-- MainBody -->
+    <main role="main" class="container-fluid">
+
+        <div id="intro">
+            <div class="container">
+                <h1 id="intro-header">Who Is <span>The</span><span id="pipp">Pipp</span>??</h1>
+                <p class="lead" id="intro-text">
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                
+                </p>
+            </div>
+            <!-- Hide text to do simple fade in affect -->
+            <script>
+                document.getElementById("intro-header").style.opacity=0;    
+                document.getElementById("intro-text").style.opacity=0;                
+            </script>
+        </div>
+
+        <!-- What I Do Section -->
+        <section class="port" id="portfolio">
+
+            <div class="container">
+                <h4 class="subhead">What I do</h4>
+                <h2 class="head">My Projects</h2>
+
+
+           <!-- Each item needs a data-featherlight set to the id of corresponding html element to display, code for html element needs defined at bottom of this file
+                To allow page to function when javascript is disabled also create corresponding page.html file. 
+              ' -->
+                <div class="row">
+                <!-- Shown on all screen sizes -->
+                    <div class="col-md-6 col-lg-4">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>                    
+                <!-- // Shown on all screen sizes -->
+                    
+                <!-- Not shown on small screen sizes -->
+                    <div class="col-md-6 col-lg-4 d-none d-md-block d-l-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-none d-md-block d-l-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-none d-md-block d-l-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                <!-- // Not shown on small screen sizes -->
+
+                <!-- Only shown on large screen sizes -->
+                    <div class="col-md-6 col-lg-4 d-none d-xl-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-none d-xl-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-none d-xl-block">
+                        <a class="port-item" data-featherlight="#port-item-1" href="port-item-1.html">
+                            <div class="port-item-cover d-flex position-absolute h-100 w-100">
+                                <div class="my-auto w-100 text-center text-white">
+                                    <i class="fas fa-plus-circle fa-3x"></i>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                        </a>
+                    </div>
+                <!-- Only shown on large screen sizes -->
+                    
+                </div>
+            </div>
+        </section>
+        <!--  //What I Do Section -->
+
+        <!-- About Section -->
+        <section class="about-me" id="about">
+
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Fixed image section -->
+                    <div class="col-md-6 clearfix" id="about-pic">
+                        <div class="half-container left-half-container">
+
+                        </div>
+                    </div>
+                    <!-- //Fixed image section -->
+                    
+                    <!-- About me text section -->
+                    <div class="right col-md-6 col-sm-11 clearfix">
+                        <div class="half-container right-half-container" id="about-text">
+
+
+                            <h4 class="subhead">Learn More</h4>
+                            <h2 class="head">About Me</h2>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                            </p>
+
+                        </div>
+                    </div>
+                    <!-- //About me text section -->
+                </div>
+            </div>
+        </section>
+        <!--  //About Section -->
+
+
+
+
+
+        <!-- Contact Section -->
+        <section class="contact-me" id="contact-me">
+            <div class="container">
+                <h4 class="subhead">Feel Free To</h4>
+                <h2 class="head">Contact Me</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-area">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                                    <span class="help-block hidden">
+                                        <p id="characterLeft" class="help-block ">You have reached the limit</p>
+                                    </span>
+                                </div>
+
+                                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  //Contact Section -->
+
+
+
+        <!-- What I do items details -->
+        <section class="hidden">
+
+            <div class="container" id="port-item-1">
+                <h4 class="subhead">MY</h4>
+                <h2 class="head">Project</h2>
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <img class="img-fluid" src="http://placehold.it/750x500" alt="">
+                    </div>
+
+                    <div class="col-md-4">
+                        <h3 class="my-3">Project Description</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                        <h3 class="my-3">Project Details</h3>
+                        <ul>
+                            <li>Lorem Ipsum</li>
+                            <li>Dolor Sit Amet</li>
+                            <li>Consectetur</li>
+                            <li>Adipiscing Elit</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <hr class="my-4">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6 mb-4 d-none d-md-block d-l-block d-xl-block">
+                            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 d-none d-md-block d-l-block d-xl-block">
+                            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 d-none d-md-block d-l-block d-xl-block">
+                            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4 d-none d-md-block d-l-block d-xl-block">
+                            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+        <!-- What I do items details -->
+
+
+    </main>
+    <!-- //MainBody -->
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small ">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 container">
+            <div id="footer-copy">
+                © 2018 Copyright:
+                <a href="#"> Mike Pippin</a>
+            </div>
+            <div id="footer-icons">
+                <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube-square fa-2x"></i></a>
+                <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./Assets/Scripts/Custom.js"></script>
+    <script src="./Assets/Scripts/featherlight.js"></script>
+    <script src="./Assets/Scripts/html5shiv.min.js"></script>
+
+</body>
+
+</html>

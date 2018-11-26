@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Axcel Group LLC</title>
+
+    <!-- Bootstrap core CSS 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="Assets/CSS/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="Assets/CSS/Axcel.main.css">
+
+</head>
+
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar-wrapper navbar-expand-md fixed-top">
+        <!--Navigation works based off of 5 main elements
+        1. Logo has background image with red bg and angled edge with transparent BG
+        2. Navigation links section has background image with red bg and angled edge with transparent BG
+        (To achieve the full width two divs wrap those first two elements and are full width of page)
+        3. First full width div has gradient background, where the transition from red to transparent happens behind logo
+        4. Second full width div has gradient background, where the transition from transparent to red happens behind navigation links
+        5. The final element is a ':before' psuedo element created with CSS and has red background set. Its original state is transparent. As page is scrolled it is animated 
+        to fully opaque state to cfeate the full width navbar look
+        -->
+        <div class="navbar">
+            <div class="navbar-outer">
+                <div class="black-line"></div>
+                <div class="container navbar-inner">
+                    <!-- Navigation bar logo -->
+                    <div class="navbar-logo">
+                        <a class="navbar-logo-link" href="index.html"></a>
+                    </div>
+
+                    <!-- Navigation bar Toggle button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links2" aria-controls="navbar-links2" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navigation bar links -->
+                    <div class="navbar-links" id="navbar-links">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 
+         Set of Navigation to show on smaller screens 
+         -easy hack to get around 'overflow:hidden' set on 'navbar' & too lazy to recode nav at this point
+         -TODO: Fix this. Remove other nav links and style this one to display correctly on larger screens 
+        -->
+        <div class="collapse navbar-collapse navbar-links2" id="navbar-links2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!---// Set of Navigation to show on smaller screens -->
+    </nav>
+    <!-- // Navigation -->
+
+
+
+    <!-- Main Content Area -->
+    <main role="main">
+
+
+        <!-- Slider Section -->
+        <section class="container-fluid slider white-text" id="slider-wrap">
+            <!-- Slides -->
+            <!-- SLIDE 1 -->
+            <div class="slider-outer">
+                <img src="Assets/Images/Slider_1.jpg" alt="" />
+
+                <div class="slider-content">
+                    <h2 class="red-background">1Sed do eiusmod tempor incididunt ut labore</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <a class="red-button" href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            <!-- SLIDE 2 -->
+            <div class="slider-outer">
+                <img src="Assets/Images/Slider_2.jpg" alt="" />
+
+                <div class="slider-content">
+                    <h2 class="red-background">2Sed do eiusmod tempor incididunt ut labore</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <a class="red-button" href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            <!-- SLIDE 3 -->
+            <div class="slider-outer">
+                <img src="Assets/Images/Slider_3.jpg" alt="" />
+
+                <div class="slider-content">
+                    <h2 class="red-background">3Sed do eiusmod tempor incididunt ut labore</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <a class="red-button" href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            <!-- SLIDE 4 -->
+            <div class="slider-outer">
+                <img src="Assets/Images/Slider_4.jpg" alt="" />
+
+                <div class="slider-content">
+                    <h2 class="red-background">4Sed do eiusmod tempor incididunt ut labore</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <a class="red-button" href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            <!-- SLIDE 5 -->
+            <div class="slider-outer">
+                <img src="Assets/Images/Slider_5.jpg" alt="" />
+
+                <div class="slider-content">
+                    <h2 class="red-background">5Sed do eiusmod tempor incididunt ut labore</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <a class="red-button" href="#">Learn More</a>
+                    </p>
+                </div>
+            </div>
+            <!-- //Slides -->
+
+        </section>
+        <!-- //Slider Section -->
+
+
+        <!-- NewsLetter Section -->
+        <section class="container-fluid newsletter red-background" id="newsletter-outer">
+            <div class="container newsletter" id="newsletter-wrap">
+                <div class="row white-text" id="newsletter-inner-wrap">
+                    <div class="col-md-12">
+                        <h3>Sign up for <span class="black-text">Our Free Newsletter</span></h3>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div> <!-- /.col- -->
+                    <div class="col-md-6">
+                        <form action="" method="post" name="subscribe-form" novalidate="">
+                            <div class="form-group">
+                                <input type="email" id="news-input" name="email" value="" class="form-control" placeholder="Your email address">
+                            </div>
+                            <div class="form-group news-button-wrapper">
+                                <input class="btn black-button" type="submit" name="subscribe" value="Subscribe!" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // NewsLetter Section -->
+
+
+        <!-- Services Section -->
+        <section class="container services" id="services-wrap">
+            <!--Services Heading -->
+            <div class="row center-header" id="services-header">
+                <h2>What we can <span class="red-text">Offer You</span></h2>
+                <p class="grey-text-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                </p>
+            </div>
+            <!-- Services body -->
+            <div class="row" id="services-body">
+                <!-- SERVICE 1 -->
+                <div class="col-md-4 red-background-light">
+                    <img src="Assets/Images/contract.png" alt="" />
+                    <h4 class="red-text">Business Planning</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                </div>
+                <!-- SERVICE 2 -->
+                <div class="col-md-4 red-background-light">
+                    <img src="Assets/Images/piggy-bank.png" alt="" />
+                    <h4 class="red-text">Financial Planning</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                </div>
+                <!-- SERVICE 3 -->
+                <div class="col-md-4 red-background-light">
+                    <img src="Assets/Images/bar-chart.png" alt="" />
+                    <h4 class="red-text">Market Analysis</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                    </p>
+                </div>
+            </div>
+            <!-- // Services body -->
+        </section>
+        <!-- // Services Section -->
+
+
+        <!-- Testimonials Section -->
+        <section class="container-fluid quotes" id="quotes-wrap">
+            <div class="black-line"></div>
+            <div class="container quotes-container">
+                <!-- Quotes rows:
+                     Each row contains two quotes, one set to be hidden on smal displays
+                -->
+                <!-- QOUTES ROW 1 -->
+                <div class="row quotes-row" id="quotes-1">
+                    <div class="col-md-6 quotes-box">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background white-text">
+                                        - "Teddy" Smith
+                                        ( <a class="white-text" href="">Teddys workshop</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-2.png" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 quotes-box d-none d-md-block">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background">
+                                        - Star Johnson
+                                        ( <a class="white-text" href="">Ham and Cheese limited</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-1.png" />
+                        </div>
+                    </div>
+                </div>
+                <!-- QOUTES ROW 2 -->
+                <div class="row quotes-row" id="quotes-2">
+                    <div class="col-md-6 quotes-box">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background">
+                                        - Star Johnson
+                                        ( <a class="white-text" href="">Ham and Cheese limited</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-1.png" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 quotes-box d-none d-md-block">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background">
+                                        - "Teddy" Smith
+                                        ( <a class="white-text" href="">Teddys workshop</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-2.png" />
+                        </div>
+                    </div>
+                </div>
+                <!-- QOUTES ROW 3 -->
+                <div class="row quotes-row" id="quotes-2">
+                    <div class="col-md-6 quotes-box">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background">
+                                        - "Teddy" Smith
+                                        ( <a class="white-text" href="">Teddys workshop</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-2.png" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 quotes-box d-none d-md-block">
+                        <div class="quotes-inner">
+                            <blockquote>
+                                <p>
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available
+                                </p>
+                                <p>
+                                    <cite class="red-background">
+                                        - Star Johnson
+                                        ( <a class="white-text" href="">Ham and Cheese limited</a> )
+                                    </cite>
+                                </p>
+                            </blockquote>
+                            <img src="Assets/Images/quote-1.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  // Quotes rows -->
+        </section>
+        <!-- // Testimonials Section -->
+
+        <!-- Portfolio & clients Section -->
+        <section class="portfolio" id="portfolio-wrap">
+            <!-- Portfolion Section -->
+            <div class="container">
+                <!-- Porfolio Header -->
+                <div class="row center-header" id="portfolio-header">
+                    <h2>Our latest <span class="red-text">Projects and Clients</span></h2>
+                    <p class="grey-text-light">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                    </p>
+                </div>
+                <!-- Porfolio Items-->
+                <div class="row portfolio-row">
+                    <!-- ITEM 1 -->
+                    <div class="col-md-4 portfolio-item">
+                        <div class="red-line-thin d-none d-md-block"></div>
+                        <div class="portfolio-outer">
+                            <img src="Assets/Images/port_1.png">
+                            <div class="portfolio-hover">
+                                <a href="">
+                                    <img src="Assets/Images/magnifying-glass.png">
+                                    <h4 class="white-text">Lorem ipsum dolor</h4>
+                                    <span class="white-text">Marketing/Art Direction</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="black-line-thin d-none d-md-block"></div>
+                    </div>
+                    <!-- ITEM 2 -->
+                    <div class="col-md-4 portfolio-item">
+                        <div class="red-line-thin d-none d-md-block"></div>
+                        <div class="portfolio-outer">
+                            <img src="Assets/Images/port_2.png">
+                            <div class="portfolio-hover">
+                                <a href="">
+                                    <img src="Assets/Images/magnifying-glass.png">
+                                    <h4 class="white-text">Enim ad minim veniam</h4>
+                                    <span class="white-text">Marketing/Art Direction</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="black-line-thin d-none d-md-block"></div>
+                    </div>
+                    <!-- ITEM 3 -->
+                    <div class="col-md-4 portfolio-item">
+                        <div class="red-line-thin d-none d-md-block"></div>
+                        <div class="portfolio-outer">
+                            <img src="Assets/Images/port_3.png">
+                            <div class="portfolio-hover">
+                                <a href="">
+                                    <img src="Assets/Images/magnifying-glass.png">
+                                    <h4 class="white-text">Lorem ipsum dolor</h4>
+                                    <span class="white-text">Marketing/Art Direction</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="black-line-thin d-none d-md-block"></div>
+                    </div>
+                </div>
+            </div>
+            <!--  // Portfolion Section -->
+
+            <!-- Clients Section -->
+            <div class="grey-background-dark clients-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-6 col-md-2">
+                            <img src="Assets/Images/logo01.png">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-2">
+                            <img src="Assets/Images/logo02.png">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-2">
+                            <img src="Assets/Images/logo03.png">
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-2">
+                            <img src="Assets/Images/logo04.png">
+                        </div>
+                        <div class="col-md-2 d-none d-md-block">
+                            <img src="Assets/Images/logo05.png">
+                        </div>
+                        <div class="col-md-2 d-none d-md-block">
+                            <img src="Assets/Images/logo06.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  // Clients Section -->
+        </section>
+        <!-- // Portfolio and Clients Section -->
+
+
+        <!-- Blog Section -->
+        <section class="container" id="blog-wrap">
+            <!-- Blog Header -->
+            <div class="row center-header" id="blog-header">
+                <h2>The latest <span class="red-text">From our Blog</span></h2>
+                <p class="grey-text-light">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                </p>
+            </div>
+
+            <!-- Blog Items -->
+            <div class="row blog-row">
+                <!-- ITEM 1 -->
+                <div class="col-md-4 blog-item">
+                    <div class="blog-outer">
+                        <img src="Assets/Images/port_1.png">
+                        <h5>
+                            <a class="white-text" href="#">
+                                Sed do eiusmod tempor incid at...
+                            </a>
+                        </h5>
+                        <div class="blog-body-wrapper">
+                            <span class="red-text">Nov 04 2018</span>
+                            <p class="grey-text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                            </p>
+                            <a href="#" class="red-button">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM 2 -->
+                <div class="col-md-4 blog-item">
+                    <div class="blog-outer">
+                        <img src="Assets/Images/port_2.png">
+                        <h5>
+                            <a class="white-text" href="#">
+                                Sed do eiusmod tempor incid at...
+                            </a>
+                        </h5>
+                        <div class="blog-body-wrapper">
+                            <span class="red-text">Nov 04 2018</span>
+                            <p class="grey-text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                            </p>
+                            <a href="#" class="red-button">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM 3 -->
+                <div class="col-md-4 blog-item">
+                    <div class="blog-outer">
+                        <img src="Assets/Images/port_3.png">
+                        <h5>
+                            <a class="white-text" href="#">
+                                Sed do eiusmod tempor incid at...
+                            </a>
+                        </h5>
+                        <div class="blog-body-wrapper">
+                            <span class="red-text">Nov 04 2018</span>
+                            <p class="grey-text-light">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniaml.
+                            </p>
+                            <a href="#" class="red-button">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--  // Blog Section -->
+
+    </main>
+    <!--  // Main Content Area -->
+
+
+
+    <!-- Footer -->
+    <footer class="footer grey-background-dark white-text">
+        <div class="row black-line"></div>
+        <div class="container">
+            <div class="row">
+                <!-- Company Description -->
+                <div class="col-lg-4 col-md-6">
+                    <img id="footer-logo" src="./Assets/Images/footer-logo.png" alt="">
+                    <p>
+                        Sed ut perspiciatis unde omnis iste nerror sit voluptatem accusantium dolorem tium totam rem
+                        aperiam eaque ipsa quae ab illose
+                        inventore veritatis et quasi artecto beatae vitae dicta sunt the way.
+                    </p>
+                </div>
+                <!-- // Company Description -->
+
+                <!-- Links -->
+                <div class="footer-list col-xl-2 col-lg-4 d-none d-lg-block">
+                    <h4>Usefull links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Market Trends</a></li>
+                        <li><a href="#">Business Anylitics</a></li>
+                        <li><a href="#">Digital signalling</a></li>
+                        <li><a href="#">FLMV . gov</a></li>
+                        <li><a href="#">Creative Thinking workshop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list col-xl-2 d-none d-xl-block">
+                    <h4>Site links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- // Links -->
+
+                <!-- Contact -->
+                <div class="col-lg-4 col-md-6">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-contacts">
+                        <li><span class="red-text">Tollfree :</span> 1 (800) 251-9080 </li>
+                        <li><span class="red-text">Human resources :</span> humanR@company.com</li>
+                        <li><span class="red-text">Support :</span> supporT@company.com</li>
+                        <li>1050 Woodward Ave, Detroit, MI 48226</li>
+                        <li>Monday – Friday, 8:30 a.m – 6:00 p.m.</li>
+                    </ul>
+                </div>
+                <!-- // Contact -->
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copy black-background">
+            2018 &copy; <a href="#">The Pipp</a>
+        </div>
+        <!-- // Copyright -->
+
+    </footer>
+    <!-- // Footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->
+    <script src="Assets/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="Assets/Scripts/bootstrap.min.js"></script>
+    <script src="Assets/Scripts/Axcel.plugins.js"></script>
+    <script src="Assets/Scripts/Axcel.main.js"></script>
+
+</body>
+
+</html>
